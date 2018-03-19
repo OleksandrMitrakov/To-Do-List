@@ -1,5 +1,23 @@
+$lightest-color:#e6e8e1;
+$darkest-color:#373331;
+$accent-color:#d18040;
+$secondary-color:#c3afa0;
+$secondary-color-third: #c8ccd1;
+
+html body{
+  font-family: 'Lato', sans-serif;
+}
+
 header, footer{
-  background-color: #373331;
-  color: #e6e8e1;
+  background-color: $darkest-color;
+  color: $lightest-color;
   text-align: center;
+}
+
+header span{
+  color: $accent-color;
+}
+
+.accent{
+  background-color: $accent-color;
 }
