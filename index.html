@@ -8,6 +8,8 @@
     <meta name="description" content="A small responsive application dedicated to people, who have a lot to deal with!">
     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet">
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -15,41 +17,66 @@
 
 </head>
 <body>
+    <div class="container">
 
-    <!--Header-->
-    <header>
-        <h1>To-Do-List</h1>
-        <p>too much thoughts on your mind?... We are here to help you!</p>
-    </header>
+        <!--Header-->
+        <div class="row">
+            <div class="col-12">
+                <header>
+                    <h1>To-<span>Do</span>-List</h1>
+                    <p>too much thoughts on your mind?... We are here to help you!</p>
+                </header>
+            </div>
+        </div>
 
-    <main>
-        <!--Add button-->
-        <section>
-            <button class="btn btn-success">Dodaj</button>
-        </section>
+        <main>
+            <!--Add button-->
+            <div class="row">
+                <div class="col-12">
+                    <section>
+                        <button class="btn accent">Dodaj nowe zadanie</button>
+                    </section>
+                </div>
+            </div>
 
-        <!--Form section-->
-        <section>
-            <form></form>
-        </section>
+            <!--Form section-->
+            <div class="row">
+                <div class="col-12">
+                    <section>
+                        <form>
 
-        <!--List items-->
-        <ul>
-            <li>This will be a new element
-                <button>Done</button>
-                <button>Change</button>
-                <button>Delete</button></li>
-        </ul>
-    </main>
+                        </form>
+                    </section>
+                </div>
+            </div>
 
-    <!--Footer-->
-    <footer>
-        <div>Contact us via email: bababa@gmail.com</div>
-        <p>Was nice to see ya! Good luck! &copy2018;</p>
-        <div>Find us here:</div>
-    </footer>
 
-<!--zmiana-->
+            <!--List items-->
+            <div class="row">
+                <div class="col-12">
+                    <ul> LISTA ZADAŃ:
+                        <li>This will be a new element
+                            <button class="btn accent">Done</button>
+                            <button class="btn accent">Change</button>
+                            <button class="btn accent">Delete</button></li>
+                    </ul>
+                </div>
+            </div>
+
+        </main>
+
+        <!--Footer-->
+        <div class="row">
+            <div class="col-12">
+                <footer>
+                    <div>Contact us via email: bababa@gmail.com</div>
+                    <p>Was nice to see ya! Good luck! &copy2018;</p>
+                    <div><p>Find us here: </p></div>
+                </footer>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 </html>
