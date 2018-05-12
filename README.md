@@ -17,4 +17,4 @@ Creating his note, user should decide about:
 
 
 
-Done by: Maja, Olek & Filip
+Done by: Me, Maja & Filip
