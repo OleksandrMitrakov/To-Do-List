@@ -16,5 +16,3 @@ Creating his note, user should decide about:
 </ul>
 
 
-
-Done by: Me, Maja & Filip
