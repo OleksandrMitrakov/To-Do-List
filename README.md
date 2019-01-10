@@ -2,7 +2,7 @@
 
 <h2>GOAL</h2>
 
-<p>The goal of our group's work was to create responsive application. The tasks from to-to-list can be noted by the user, who can also set up the time, priority and short description of his goals. Tasks are saved in Local Storage. They can be deleted and removed when they are done.</p>
+<p>The goal of our group's work was to create responsive application. The tasks from to-do-list can be noted by the user, who can also set up the time, priority and short description of his goals. Tasks are saved in Local Storage. They can be deleted and removed when they are done.</p>
 
 <p>You can see life preview here: http://taskListCL.surge.sh </p>
 
